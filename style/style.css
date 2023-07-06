@@ -1,0 +1,37 @@
+*{
+    margin: auto;
+    padding: 0;
+    background-color: black;
+    list-style-type: none;
+    color: azure;
+}
+h1{
+    color: rgb(87, 196, 240);
+}
+p#name{
+    color: rgb(163, 174, 190);
+}
+p.number{
+    color: aqua;
+}
+table{
+    color: beige;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+.txt{
+    justify-content: center;
+}
+table,
+tr,
+th,
+td{
+    border:1px solid #522283;
+    border-spacing: 0;
+}
+th{
+    color: aqua;
+    background-color: black;
+}
