@@ -1,37 +1,51 @@
-*{
-    margin: auto;
-    padding: 0;
-    background-color: black;
-    list-style-type: none;
-    color: azure;
+* {
+  margin: auto;
+  padding: 0;
+  background-color: black;
+  list-style-type: none;
+  color: azure;
 }
-h1{
-    color: rgb(87, 196, 240);
+
+h1 {
+  color: rgb(87, 196, 240);
 }
-p#name{
-    color: rgb(163, 174, 190);
+
+p#name {
+  color: rgb(163, 174, 190);
 }
-p.number{
-    color: aqua;
+
+p.number {
+  color: aqua;
 }
-table{
-    color: beige;
+
+table {
+  color: beige;
 }
-body{
-    display: flex;
-    flex-direction: column;
+
+body {
+  display: flex;
+  flex-direction: column;
 }
-.txt{
-    justify-content: center;
+
+.txt {
+  justify-content: center;
 }
+
 table,
 tr,
 th,
-td{
-    border:1px solid #522283;
-    border-spacing: 0;
+td {
+  border: 1px solid #522283;
+  border-spacing: 0;
 }
-th{
-    color: aqua;
-    background-color: black;
+
+th {
+  color: aqua;
+  background-color: black;
 }
+
+div.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}/*# sourceMappingURL=style.css.map */
