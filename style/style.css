@@ -1,9 +1,16 @@
 * {
-  margin: auto;
-  padding: 0;
-  background-color: black;
   list-style-type: none;
   color: azure;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
 }
 
 h1 {
@@ -22,13 +29,13 @@ table {
   color: beige;
 }
 
-body {
+.txt {
   display: flex;
   flex-direction: column;
-}
-
-.txt {
+  text-align: center;
+  align-items: center;
   justify-content: center;
+  background-image: linear-gradient(to bottom, white, black);
 }
 
 table,
@@ -45,7 +52,60 @@ th {
 }
 
 div.container {
+  text-align: center;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
+  height: 100%;
+}
+
+div {
+  width: 100%;
+}
+div .box1 {
+  background-image: linear-gradient(to bottom, red, orange);
+}
+div .box2 {
+  background-image: linear-gradient(to bottom, orange, yellow);
+}
+div .box3 {
+  background-image: linear-gradient(to bottom, yellow, greenyellow);
+}
+div .box4 {
+  background-image: linear-gradient(to bottom, greenyellow, blue);
+}
+div .box5 {
+  background-image: linear-gradient(to bottom, blue, purple);
+}
+div .box6 {
+  background-image: linear-gradient(to bottom, purple, white);
+}
+
+h1#r {
+  color: greenyellow;
+}
+
+h1#o {
+  color: orange;
+}
+
+h1#y {
+  color: yellow;
+}
+
+h1#g {
+  color: red;
+}
+
+h1#b {
+  color: blue;
+}
+
+h1#p {
+  color: white;
+}
+
+img {
+  filter: sepia();
 }/*# sourceMappingURL=style.css.map */

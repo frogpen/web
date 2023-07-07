@@ -1,9 +1,19 @@
 *{
-    margin: auto;
-    padding: 0;
-    background-color: black;
+    // margin: auto;
+    // padding: 0;
     list-style-type: none;
     color: azure;
+    
+    
+}
+html,
+body{
+    height: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
 }
 h1{
     color: rgb(87, 196, 240);
@@ -17,12 +27,13 @@ p.number{
 table{
     color: beige;
 }
-body{
+.txt{
     display: flex;
     flex-direction: column;
-}
-.txt{
+    text-align: center;
+    align-items: center;
     justify-content: center;
+    background-image: linear-gradient(to bottom, white, black);;
 }
 table,
 tr,
@@ -36,7 +47,53 @@ th{
     background-color: black;
 }
 div.container {
+    text-align: center;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+    height: 100%;
 }
+div{
+    width: 100%;
+    .box1{
+        background-image: linear-gradient(to bottom, red, orange);;
+    }
+    .box2{
+        background-image: linear-gradient(to bottom, orange, yellow);;
+    }
+    .box3{
+        background-image: linear-gradient(to bottom, yellow, greenyellow);;
+    }
+    .box4{
+        background-image: linear-gradient(to bottom, greenyellow, blue);;
+    }
+    .box5{
+        background-image: linear-gradient(to bottom, blue, purple);;
+    }
+    .box6{
+        background-image: linear-gradient(to bottom, purple, white);;
+    }
+}
+h1#r{
+    color: greenyellow;
+}
+h1#o{
+    color: orange;
+}
+h1#y{
+    color: yellow;
+}
+h1#g{
+    color: red;
+}
+h1#b{
+    color: blue;
+}
+h1#p{
+    color: white;
+}
+img{
+    filter: sepia();
+ }
+
